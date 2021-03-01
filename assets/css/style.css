@@ -1,0 +1,696 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-size: 2.8em;
+  letter-spacing: 4px;
+}
+
+.link {
+  font-family: "Poppins", sans-serif;
+}
+
+a, p, small {
+  font-family: "Nunito", sans-serif;
+}
+
+.wrap {
+  width: 75%;
+  margin: 0px auto;
+}
+
+body {
+  background-color: #131313;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 20px 12.5%;
+  position: fixed;
+  top: 0px;
+  width: 75%;
+  background-color: black;
+}
+
+nav #logo {
+  font-size: 2.2em;
+}
+
+nav #logo i {
+  color: #fff;
+}
+
+nav #menu {
+  font-size: 1.1em;
+  margin-top: 10px;
+}
+
+nav #menu .link {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 20px;
+}
+
+nav #menu .link:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #C3272B;
+}
+
+header {
+  color: #fff;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+header section {
+  margin-top: 30vh;
+}
+
+header section h1 {
+  font-size: 3.5em;
+  letter-spacing: 1.5px;
+}
+
+header section h1 span {
+  color: #C3272B;
+  padding: 0px 10px;
+}
+
+header section p {
+  margin: 40px 0px;
+  letter-spacing: .8px;
+  width: 80%;
+}
+
+header section #btns {
+  padding-top: 20px;
+}
+
+header section #btns .btn {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  margin-right: 20px;
+  text-transform: uppercase;
+  font-size: .85em;
+}
+
+header section #btns .btn:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(195, 39, 43, 0.75);
+}
+
+header section:nth-of-type(2) {
+  margin-top: 20vh;
+}
+
+main section {
+  min-height: 100vh;
+  color: #fff;
+  padding-top: 10vh;
+}
+
+main #about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #about img {
+  height: 65%;
+}
+
+main #about .naslovTekst {
+  line-height: 2;
+  margin-top: 100px;
+}
+
+main #about .naslovTekst h2 {
+  margin-bottom: 40px;
+}
+
+main #about .naslovTekst p {
+  width: 90%;
+  font-size: 1.1em;
+  letter-spacing: .5px;
+  line-height: 2;
+  text-align: justify;
+}
+
+main #services .naslovTekst {
+  margin-bottom: 100px;
+}
+
+main #services .naslovTekst h2 {
+  margin-bottom: 40px;
+}
+
+main #services .naslovTekst p {
+  width: 50%;
+  font-size: 1.1em;
+  letter-spacing: .5px;
+  line-height: 2;
+  text-align: justify;
+}
+
+main #services .services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #services .services article {
+  color: #333;
+  background-color: #ECF0F1;
+  padding: 50px;
+  width: 40%;
+  background-image: url("../img/4855443.jpg");
+  background-size: cover;
+}
+
+main #services .services article h3 {
+  font-size: 2em;
+}
+
+main #services .services article .opis {
+  letter-spacing: .5px;
+  margin: 20px 0px;
+}
+
+main #services .services article .tech {
+  font-size: 1.1em;
+  line-height: 2;
+  font-weight: 600;
+}
+
+main #portfolio .naslovTekst {
+  margin-bottom: 80px;
+}
+
+main #portfolio .naslovTekst h2 {
+  margin-bottom: 40px;
+}
+
+main #portfolio .naslovTekst p {
+  width: 50%;
+  font-size: 1.1em;
+  letter-spacing: .5px;
+  line-height: 2;
+  text-align: justify;
+}
+
+main #portfolio #websites {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #portfolio #websites article {
+  padding: 50px;
+}
+
+main #portfolio #websites article img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+main #portfolio #websites article .gornji {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+main #portfolio #websites article .gornji h4 {
+  font-size: 1.5em;
+}
+
+main #portfolio #websites article .gornji #btns .btn {
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  border-radius: 50px;
+  margin-left: 15px;
+  padding: 10px;
+}
+
+main #portfolio #websites article .gornji #btns .btn:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #fff;
+  border: 2px solid rgba(0, 0, 0, 0);
+  background-color: rgba(195, 39, 43, 0.75);
+}
+
+main #portfolio #websites article .donji .technologies {
+  margin-top: 20px;
+}
+
+main #portfolio #websites article .donji .technologies p {
+  float: left;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+main #portfolio #websites article:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+main #contact {
+  text-align: center;
+}
+
+main #contact .naslovTekst h2 {
+  margin-bottom: 40px;
+}
+
+main #contact .naslovTekst p {
+  width: 100%;
+  font-size: 1.1em;
+  letter-spacing: .5px;
+  line-height: 2;
+  text-align: justify;
+}
+
+main #contact .naslovTekst p {
+  text-align: center;
+}
+
+main #contact #kontaktForma {
+  width: 700px;
+  margin: 0px auto;
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main #contact #kontaktForma input, main #contact #kontaktForma textarea {
+  background-color: #222;
+  font-size: 1.1em;
+  border: 0px;
+}
+
+main #contact #kontaktForma #ime, main #contact #kontaktForma #email {
+  width: 46%;
+}
+
+main #contact #kontaktForma #subject, main #contact #kontaktForma #tekst, main #contact #kontaktForma #submit {
+  width: 100%;
+}
+
+main #contact #kontaktForma input {
+  height: 45px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+main #contact #kontaktForma textarea {
+  height: 200px;
+  resize: none;
+  margin-bottom: 30px;
+  padding-left: 10px;
+}
+
+main #contact #kontaktForma #submit {
+  background-color: #C3272B;
+}
+
+main #contact #social {
+  margin-top: 50px;
+}
+
+main #contact #social h2 {
+  margin-bottom: 40px;
+}
+
+main #contact #social a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 20px;
+}
+
+main #contact #social a:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #C3272B;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 150px;
+  text-align: center;
+}
+
+footer #fooLinks {
+  padding: 40px 0px;
+}
+
+footer #fooLinks a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+footer #fooLinks a:hover {
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+  color: #C3272B;
+}
+
+footer small {
+  color: #fff;
+}
+
+@media screen and (max-width: 1536px) {
+  .wrap {
+    width: 80%;
+  }
+  header section:nth-of-type(1) {
+    width: 50%;
+  }
+  main #about img {
+    height: 400px;
+  }
+  main #portfolio #websites article {
+    width: 45%;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  header section h1 {
+    font-size: 3em;
+  }
+  header section p {
+    margin: 20px 0px;
+  }
+  main #about .naslovTekst {
+    margin-bottom: 50px;
+  }
+  main #about .naslovTekst p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  main #about .naslovTekst {
+    margin-top: 0px;
+  }
+  main #services .naslovTekst {
+    margin-bottom: 50px;
+  }
+  main #services .naslovTekst p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  main #services .services article {
+    padding: 40px;
+  }
+  main #portfolio .naslovTekst {
+    margin-bottom: 50px;
+  }
+  main #portfolio .naslovTekst p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+  main #contact #kontaktForma {
+    width: 500px;
+    margin-top: 40px;
+  }
+  main #contact #social {
+    margin-top: 40px;
+  }
+  main #contact #social #links {
+    padding-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 50vh !important;
+  }
+  header section {
+    margin-top: 20vh;
+    width: 40%;
+  }
+  header section:nth-of-type(2) img {
+    width: 100%;
+  }
+  main #about {
+    min-height: 50vh;
+  }
+  main #about img {
+    height: 350px;
+  }
+  main #about .naslovTekst {
+    width: 50%;
+  }
+  main #about .naslovTekst p {
+    width: 90%;
+  }
+  main #about .naslovTekst .pasus {
+    margin-bottom: 20px;
+  }
+  main #services .services article {
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  main #portfolio #websites article {
+    width: 100%;
+    padding: 50px;
+    margin-bottom: 50px;
+  }
+  main #contact {
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wrap {
+    width: 85%;
+  }
+  header {
+    min-height: 70vh;
+  }
+  header section {
+    margin-top: 25vh;
+  }
+  header section h1 {
+    font-size: 2.8em;
+  }
+  header section p {
+    width: 100%;
+  }
+  main #about .naslovTekst {
+    width: 100%;
+  }
+  main #about .naslovTekst h2 {
+    margin-bottom: 20px;
+  }
+  main #about .naslovTekst p {
+    width: 100%;
+    font-size: 1em;
+    line-height: 1.75em;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  h2 {
+    font-size: 2.2em;
+  }
+  .wrap {
+    width: 90%;
+  }
+  nav {
+    width: 95%;
+    padding: 10px 5%;
+  }
+  nav #menu .link {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 5px;
+  }
+  header section:nth-of-type(2) img {
+    display: none;
+  }
+  header section:nth-of-type(1) {
+    width: 100%;
+  }
+  header section:nth-of-type(1) p {
+    width: 75%;
+  }
+  main #about {
+    min-height: 50vh;
+  }
+  main #about img {
+    height: 250px;
+  }
+  main #about .naslovTekst {
+    width: 100%;
+  }
+  main #about .naslovTekst p {
+    width: 90%;
+  }
+  main #about .naslovTekst .pasus {
+    margin-bottom: 20px;
+  }
+  main #services .naslovTekst p {
+    width: 75%;
+  }
+  main #portfolio .naslovTekst p {
+    width: 75%;
+  }
+  main #portfolio #websites article {
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  main #contact #kontaktForma {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  nav #menu .link {
+    font-size: .9em;
+  }
+  header section h1 {
+    font-size: 2.5em;
+  }
+  header section p {
+    font-size: .95em;
+    width: 85% !important;
+  }
+  main #about {
+    min-height: 50vh;
+  }
+  main #about img {
+    height: 300px;
+  }
+  main #services .naslovTekst p {
+    width: 90%;
+  }
+  main #services .services article {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+  main #portfolio .naslovTekst p {
+    width: 90%;
+  }
+  main #portfolio #websites article .gornji h4 {
+    font-size: 1.1em;
+  }
+  main #portfolio #websites article .gornji #btns .btn {
+    margin-left: 10px;
+    padding: 5px;
+  }
+  main #contact #kontaktForma {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  h2 {
+    font-size: 2.1em;
+  }
+  p {
+    font-size: 0.95em !important;
+  }
+  nav #logo {
+    font-size: 1.5em;
+  }
+  nav #menu .link {
+    font-size: .85em;
+  }
+  header {
+    min-height: 80vh;
+  }
+  header section h1 {
+    font-size: 2.3em;
+  }
+  header section #btns .btn {
+    padding: 10px 15px;
+  }
+  main #contact #kontaktForma {
+    width: 300px;
+  }
+  main #contact #kontaktForma #ime, main #contact #kontaktForma #email {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  header {
+    min-height: 100vh;
+  }
+  main #about img {
+    height: 200px;
+  }
+  main #portfolio #websites article {
+    padding: 5px;
+  }
+  main #contact #kontaktForma {
+    width: 250px;
+  }
+  main #contact #social #links a {
+    padding: 0px 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

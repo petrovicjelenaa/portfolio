@@ -1,0 +1,62 @@
+//mixins
+@mixin inline-display{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+@mixin default-a-design{
+    text-decoration: none;
+    color:#fff;
+}
+@mixin a-hover($val){
+    transition: .3s ease;
+    color:$val;
+}
+@mixin btn{
+    border:1px solid #fff;
+    padding:15px 20px;
+    border-radius: 50px;
+    
+    &:hover{
+        @include a-hover(#fff);
+        border:2px solid rgba($color: #000000, $alpha: 0);
+        background-color: $transparentBackground;
+    }
+}
+@mixin naslov-tekst($sirinaTekst){
+    h2{
+        margin-bottom: 40px;
+    }
+    p{
+        width:$sirinaTekst;
+        font-size:1.1em;
+        letter-spacing: .5px;
+        line-height: 2;
+        text-align: justify;
+    }
+}
+
+//responsive mixin
+@mixin naslov-tekst-1280(){
+    .naslovTekst{
+        margin-bottom: 50px;
+        p{
+            font-size:1em;
+            line-height: 1.5em;
+        }
+    }
+}
+@mixin naslov-tekst-768(){
+    .naslovTekst{
+        width:100%;
+      
+        h2{
+            margin-bottom: 20px;
+        }
+        p{
+            width: 100%;
+            font-size:1em;
+            line-height: 1.75em;
+        }
+    }
+}

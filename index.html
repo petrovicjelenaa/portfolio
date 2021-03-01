@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="description" content="Jelena Petrovic Fron End Web Developer specialized for HTML/CSS templates"/>
+    <meta name="keywords" content="HTML, CSS, portfolio"/>
+    <meta name="author" content="Jelena Petrovic"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito&family=Poppins&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <nav class="">
+        <div id="logo">
+            <a href="index.html"><i class="fab fa-artstation"></i></a>
+        </div>
+        <div id="menu">
+           <a href="#home" class="link">home</a>
+           <a href="#about" class="link">about</a>
+           <a href="#services" class="link">services</a>
+           <a href="#portfolio" class="link">portfolio</a>
+           <a href="#contact" class="link">contact</a>
+        </div>
+    </nav>
+    <header class="wrap" id="home">
+        <section>
+            <h1>Hello, I'm <span>Jelena Petrovic</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, reprehenderit tempore unde</p>
+            <div id="btns">
+                <a href="#portfolio" class="btn">Portfolio</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        
+            
+        </section>
+        <section>
+            <img src="assets/img/header.gif" alt="Jelena Petrovic"/>
+        </section>
+     
+    </header>
+    <main class="wrap">
+        <section id="about">
+              <img src="assets/img/jelena.png" alt="Jelena Petrovic"/>
+              <div class="naslovTekst">
+                <h2>About Me</h2>
+                <div class="pasus">
+                    <p>My name is Jelena Petrović, i’m 19 years old. My zodiac sign is Leo. </p>
+                    <p>I am the student of ICT college in Belgrade.</p>
+                    <p> I have really big desire for programming and that’s why I attend that school.</p>
+                </div>
+                <div class="pasus">
+                    <p>My name is Jelena Petrović, i’m 19 years old. My zodiac sign is Leo. </p>
+                    <p>I am the student of ICT college in Belgrade.</p>
+                    <p> I have really big desire for programming and that’s why I attend that school.</p>
+                </div>
+                
+              </div>
+            
+        </section>
+        <section id="services">
+            <div class="naslovTekst">
+                <h2>My Services</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias aperiam vitae doloremque, minus harum iste.</p>
+            </div>
+            <div class="services">
+                <article>
+                    <h3>UI/UX Design</h3>
+                    <p class="opis">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="tech">
+                        <p>Adobe XD</p>
+                        <p>Adobe Photoshop</p>
+                        <p>Adobe Ilustrator</p>
+                    </div>
+                </article>
+                <article>
+                    <h3>Web Development</h3>
+                    <p class="opis">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div class="tech">
+                        <p>HTML5</p>
+                        <p>CSS3 / SCSS</p>
+                        <p>Responsive Design</p>
+                        <p>Bootstrap / Materialize</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="naslovTekst">
+                <h2>My Works</h2>
+                <p>These are all my projects that I have worked on so far</p>
+            </div>
+            <div id="websites">
+                <article>
+                    <img src="assets/img/sajt1.png" alt="HTML/CSS website"/>
+                    <div class="gornji">
+                        <h4>Kozmeticki salon</h4>
+                        <div id="btns">
+                            <a href="#" class="btn">Demo</a>
+                            <a href="#" class="btn">Code</a>
+                        </div>
+                        
+                    </div>
+                    <div class="donji">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+                        <div class="technologies">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/img/sajt2.png" alt="Portfolio website"/>
+                    <div class="gornji">
+                        <h4>Portfolio</h4>
+                        <div id="btns">
+                            <a href="#" class="btn">Demo</a>
+                            <a href="#" class="btn">Code</a>
+                        </div>
+                        
+                    </div>
+                    <div class="donji">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, reiciendis.</p>
+                        <div class="technologies">
+                            <p>HTML</p>
+                            <p>SCSS</p>
+                            <p>Media Query</p>
+                        </div>
+                    </div>
+                </article>
+            </div>
+                
+            
+        </section>
+        <section id="contact">
+            <div class="naslovTekst">
+                <h2>Contact</h2>
+                <p>Say Hi! or contact me on social media</p>
+            </div>
+            <form id="kontaktForma" action="#" method="POST">
+                <input type="text" name="ime" id="ime" placeholder="Your Name"/>
+                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                <input type="text" name="subject" id="subject" placeholder="Subject"/>
+                <textarea id="tekst" name="tekst"></textarea>
+                <input type="submit" name="submit" id="submit" value="Send"/>
+            </form>
+            <div id="social">
+                <h2>Find me on</h2>
+                <div id="links">
+                    <a href="">Instagram</a>
+                    <a href="">Linkedin</a>
+                    <a href="">Github</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+       <div id="fooLinks">
+           <a href="sitemap.xml" target="_blank"><i class="fas fa-sitemap"></i></a>
+           <a href="assets/css/style.scss" target="_blank"><i class="fab fa-sass"></i></a>
+           <a href="assets/css/style.css" target="_blank"><i class="fab fa-css3-alt"></i></a>
+       </div>
+       <small>&copy; Jelena Petrovic 36/20. All rights reserved</small>
+    </footer>
+</body>
+</html>
