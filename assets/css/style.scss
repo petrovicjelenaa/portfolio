@@ -356,7 +356,7 @@ footer{
 
 @media screen and (max-width: 1024px) {
     header{
-        height: 50vh!important;
+        
         section{
             margin-top:20vh;
             width: 40%;
@@ -423,6 +423,11 @@ footer{
                 width: 100%;
                 
             }
+            #btns{
+                .btn{
+                    margin-right: 5px;
+                }
+            }
         }
     }
     main{
@@ -431,6 +436,11 @@ footer{
             @include naslov-tekst-768();
            
         } 
+        #contact{
+            #kontaktForma{
+                width: 70%;
+            }
+        }
     } 
 }
 
@@ -500,12 +510,19 @@ footer{
                 article {
                     padding: 20px;
                     margin-bottom: 30px;
+                    .gornji{
+                        h4{
+                            font-size:1.2em;
+                        }
+                        
+                    }
                 }
+                
             } 
         }
         #contact{
             #kontaktForma{
-                width: 400px;
+                width: 80%;
             }
         }
     }
@@ -577,11 +594,7 @@ footer{
                 
             }
           }
-          #contact{
-              #kontaktForma{
-                  width: 350px;
-              }
-          }
+          
         
     }
 }
@@ -618,7 +631,7 @@ footer{
     main{
         #contact{
             #kontaktForma{
-                width:300px;
+                width:90%;
                 #ime,#email{
                     width:100%;
                 }
@@ -645,9 +658,7 @@ footer{
             }
         } 
         #contact{
-            #kontaktForma{
-                width: 250px;
-            }
+           
             #social{
                 #links{
                     a{

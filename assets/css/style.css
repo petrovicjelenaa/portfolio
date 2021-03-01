@@ -483,9 +483,6 @@ footer small {
 }
 
 @media screen and (max-width: 1024px) {
-  header {
-    height: 50vh !important;
-  }
   header section {
     margin-top: 20vh;
     width: 40%;
@@ -539,6 +536,9 @@ footer small {
   header section p {
     width: 100%;
   }
+  header section #btns .btn {
+    margin-right: 5px;
+  }
   main #about .naslovTekst {
     width: 100%;
   }
@@ -549,6 +549,9 @@ footer small {
     width: 100%;
     font-size: 1em;
     line-height: 1.75em;
+  }
+  main #contact #kontaktForma {
+    width: 70%;
   }
 }
 
@@ -602,8 +605,11 @@ footer small {
     padding: 20px;
     margin-bottom: 30px;
   }
+  main #portfolio #websites article .gornji h4 {
+    font-size: 1.2em;
+  }
   main #contact #kontaktForma {
-    width: 400px;
+    width: 80%;
   }
 }
 
@@ -641,9 +647,6 @@ footer small {
     margin-left: 10px;
     padding: 5px;
   }
-  main #contact #kontaktForma {
-    width: 350px;
-  }
 }
 
 @media screen and (max-width: 375px) {
@@ -669,7 +672,7 @@ footer small {
     padding: 10px 15px;
   }
   main #contact #kontaktForma {
-    width: 300px;
+    width: 90%;
   }
   main #contact #kontaktForma #ime, main #contact #kontaktForma #email {
     width: 100%;
@@ -685,9 +688,6 @@ footer small {
   }
   main #portfolio #websites article {
     padding: 5px;
-  }
-  main #contact #kontaktForma {
-    width: 250px;
   }
   main #contact #social #links a {
     padding: 0px 10px;
